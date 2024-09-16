@@ -73,7 +73,7 @@ bool IsCommand(std::string_view command);
  * @param delayed If true, this function will return immediate and the command will be.
  * executed on the next Pulse.
  */
-void DoCommand(const char* command, bool delayed);
+void DoCommand(const char* command, bool delayed = true);
 
 /**
  * Execute a chat command with printf style formatting. Behaves the same as `DoCommand`,
@@ -134,6 +134,14 @@ using fEQCommandOld = void(*)(PlayerClient* pChar, char* command);
  */
 using fEQCommand = void(*)(PlayerClient* pChar, const char* command);
 
+
+/**
+ * Search the list of EQ commands and return a function pointer to the command if it exists
+ *
+ * @param command The EQ slash command to search for (e.g. "/xtarget")
+ * @return A pointer to the command function, or nullptr if not found.
+ */
+MQLIB_API fEQCommand FindEQCommand(std::string_view command);
 
 /**
  * Adds a new chat command. If the command conflicts with an existing EverQuest command, then

@@ -1,25 +1,81 @@
+Sep 5, 2024:
+- lua: events can now preserve links:
+    - mq.event('linkDetector', '#*#', linkDetector, { keepLinks = true })
+- lua: New set of APIs for manipulating links.
+    - See the [definitions](https://github.com/macroquest/mq-definitions/blob/master/mq/_itemlinks.lua) for a full listing.
+    - lua: New examples/linkdetector.lua script in the lua folder provides some examples.
+- lua: Add support for Macro token expansion in event patterns:
+    - mq.event('meDetector', '#*#|${Me.Name}|#*#', meDetector)
+
+Aug 21, 2024:
+- Update for live patch
+- Add SpellHold to Pet TLO (#893)
+
+Aug 19, 20924:
+- Update for test patch
+
+July 28, 2024:
+- Update for test patch
+
+July 22, 2024:
+- Update for live hotfix patch
+
+July 18, 2024:
+- Update for live hotfix patch
+
+July 17, 2024:
+- Update for live patch
+
+July 14, 2024:
+- test: Update for test patch
+
+July 7, 2024:
+- Add new HotButton window type: ${Window[HotButtonWnd2/HB_Button6].HotButton}
+- See docs at: https://docs.macroquest.org/reference/data-types/datatype-hotbuttonwindow/
+- Me.CombatState no longer depends on the player window being visible (#123).
+
+July 3, 2024:
+- Fix EverQuest.Ping, add EverQuest.ConnectionStrength - these are the value from the net meter.
+- Fix UI not working after persona swap (#797).
+
+July 1, 2024:
+- emu: Fix CTAFrameDraw, fixes several issues with window inspector (#871)
+- emu: Fix CBazaarSearchWnd, fixes several issues with /bzsrch (#872)
+
+June 24, 2024:
+- Update for live hotfix patch
+
+June 20, 2024:
+- Fix a bug in EverQuest so the window doesn't constantly resize/restore
+  itself whenever common system events happen.
+
+June 19, 2024:
+- Update for live patch
+
+June 16, 2024:
+- Update for test patch
+- Fix MacroQuest.exe now shutting down properly
+- FIx /removeaura not parsing macro arguments (#869).
+
+May 26, 2024:
+- Update for test patch
+
+May 23, 2024:
+- Update for live hotfix patch
+- Please refrain from using MQ on truebox servers.
+
 May 15, 2024:
 - Update for live patch
+
+May 10, 2024:
+- Update for test patch
 
 April 25, 2024:
 - Adjust timestamps in chat and logging to be in local time (#853, #852).
 - Add logging auto cleanup feature to launcher (#419).
 
-April 17, 2024:
-- Update for live patch
-
-April 11, 2024:
-- Update for test patch
-
-April 1, 2024:
-- Update for live patch
-
-March 30, 2024:
-- Update for live patch
-- Update for test patch
-
-March 23, 2024:
-- Update for test patch
+March 27, 2024:
+- Updated emu client to catch it up with the latest features
 
 March 13, 2024:
 - Update for live patch
