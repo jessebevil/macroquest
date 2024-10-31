@@ -61,8 +61,8 @@ static const ImU32 s_linkColorSpam = Zep::ZepColor(128, 128, 0);
 static const ImU32 s_linkColorPlayer = Zep::ZepColor(0, 0, 0, 0); // use current color
 
 static const int s_userColorItemLink = USERCOLOR_LINK;
-#if IS_EXPANSION_LEVEL(EXPANSION_LEVEL_ROF + 1)
 static const int s_userColorAchievementLink = USERCOLOR_ACHIEVEMENT;
+#if IS_EXPANSION_LEVEL(EXPANSION_LEVEL_ROF + 1)
 static const int s_userColorDialogLink = USERCOLOR_DIALOG_LINK;
 static const int s_userColorCommandLink = USERCOLOR_DIALOG_LINK;
 static const int s_userColorFactionLink = USERCOLOR_FACTION_LINK;
@@ -607,12 +607,6 @@ struct ImGuiZepConsole : public mq::imgui::ConsoleWidget, public mq::imgui::ImGu
 	ImGuiZepConsole(std::string_view id)
 		: m_id(std::string(id))
 	{
-		SetFont(Zep::ZepTextType::UI, mq::imgui::DefaultFont, 16);
-		SetFont(Zep::ZepTextType::Text, mq::imgui::ConsoleFont, 13);
-		SetFont(Zep::ZepTextType::Heading1, mq::imgui::DefaultFont, 28);
-		SetFont(Zep::ZepTextType::Heading2, mq::imgui::DefaultFont, 14);
-		SetFont(Zep::ZepTextType::Heading3, mq::imgui::DefaultFont, 20);
-
 		GetEditor().RegisterGlobalMode(std::make_shared<ZepMode_ImGuiConsole>(GetEditor()));
 		GetEditor().SetGlobalMode(ZepMode_ImGuiConsole::StaticName());
 
@@ -726,10 +720,10 @@ struct ImGuiZepConsole : public mq::imgui::ConsoleWidget, public mq::imgui::ImGu
 			color = s_linkColorSpam;
 			color = s_linkHoverColorSpam;
 			break;
-#if IS_EXPANSION_LEVEL(EXPANSION_LEVEL_ROF + 1)
 		case ETAG_ACHIEVEMENT:
 			color = GetColorForChatColor(s_userColorAchievementLink).ToABGR();
 			break;
+#if IS_EXPANSION_LEVEL(EXPANSION_LEVEL_ROF + 1)
 		case ETAG_DIALOG_RESPONSE:
 			color = GetColorForChatColor(s_userColorDialogLink).ToABGR();
 			break;
