@@ -1,4 +1,11 @@
-Nove 21, 2024:
+Dec 3, 2024:
+- live: Update for TOB expansion patch
+- Fix /useitem not interacting with activated item keyring
+
+Dec 1, 2024:
+- test: Update for TOB expansion patch
+
+Nov 21, 2024:
 - Fix a couple crashes
 
 Nov 20, 2024:
