@@ -834,7 +834,7 @@ void SelectItem(PlayerClient* pChar, const char* szLine)
 		}
 	}
 
-	WriteChatf("/selectitem works when a merchantwindow is open, it will select a item from YOUR inventory.\n"
+	WriteChatf("/selectitem works when a merchantwindow is open, it will select an item from YOUR inventory.\n"
 		"Use /invoke ${Merchant.SelectItem[some item]} if you want to select an item in the MERCHANTS inventory.");
 	WriteChatf(R"(Usage: /selectitem "some item in YOUR inventory", use "=some item in YOUR inventory" for EXACT name search.)");
 }
@@ -2196,7 +2196,7 @@ void MacroLog(PlayerClient* pChar, const char* szLine)
 
 	fmt::memory_buffer buffer;
 	auto out = fmt::format_to(fmt::appender(buffer),
-		"[{:02d}/{:02d}/{:04d} {:02d}:{:02d}:{:02d}] {}",
+		"[{:04d}/{:02d}/{:02d} {:02d}:{:02d}:{:02d}] {}",
 		local_tm.tm_year + 1900, local_tm.tm_mon + 1, local_tm.tm_mday,
 		local_tm.tm_hour, local_tm.tm_min, local_tm.tm_sec, szLine);
 	*out = 0;
@@ -3746,7 +3746,7 @@ void UseItemCmd(PlayerClient* pChar, const char* szLine)
 #if HAS_TELEPORTATION_KEYRING
 		case eItemContainerTeleportationKeyRingItems: keyRingType = eTeleportationItem; break;
 #endif
-#if HAS_ACTIVATED_KEYRING
+#if HAS_ACTIVATED_ITEM_KEYRING
 		case eItemContainerActivatedKeyRingItems: keyRingType = eActivatedItem; break;
 #endif
 		default: return;
