@@ -8,3 +8,30 @@
 [submodule "data/lua/IntegrationTests"]
 	path = src/plugins/lua/lua/IntegrationTests
 	url = https://github.com/macroquest/integration-tests.git
+[submodule "plugins/cwtn"]
+	path = plugins/cwtn
+	url = https://github.com/jessebevil/CWTN
+[submodule "plugins/MQ2Nav"]
+	path = plugins/MQ2Nav
+	url = https://github.com/brainiac/MQ2Nav.git
+[submodule "plugins/MQ2MoveUtils"]
+	path = plugins/MQ2MoveUtils
+	url = https://github.com/RedGuides/MQ2MoveUtils.git
+[submodule "plugins/MQ2EQBC"]
+	path = plugins/MQ2EQBC
+	url = https://github.com/RedGuides/MQ2EQBC.git
+[submodule "plugins/MQ2Status"]
+	path = plugins/MQ2Status
+	url = https://github.com/RedGuides/MQ2Status.git
+[submodule "plugins/MQ2AASpend"]
+	path = plugins/MQ2AASpend
+	url = https://github.com/RedGuides/MQ2AASpend.git
+[submodule "plugins/MQ2AutoAccept"]
+	path = plugins/MQ2AutoAccept
+	url = https://github.com/RedGuides/MQ2AutoAccept.git
+[submodule "plugins/MQ2EasyFind"]
+	path = plugins/MQ2EasyFind
+	url = https://github.com/brainiac/MQ2EasyFind.git
+[submodule "plugins/MQ2AutoSize"]
+	path = plugins/MQ2AutoSize
+	url = https://github.com/RedGuides/MQ2AutoSize.git
