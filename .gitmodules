@@ -278,6 +278,7 @@
 [submodule "plugins/CWTN"]
 	path = plugins/CWTN
 	url = https://github.com/jessebevil/CWTN
+	branch = emu
 [submodule "plugins/MQ2Discord"]
 	path = plugins/MQ2Discord
 	url = https://gitlab.com/alynel/mq2discord.git
