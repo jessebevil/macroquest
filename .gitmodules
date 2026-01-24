@@ -10,6 +10,69 @@
 	path = plugins/MQ2MoveUtils
 	url = https://github.com/RedGuides/mq2moveutils.git
 	branch = master
+[submodule "plugins/MQ2ActorsTest"]
+	path = plugins/MQ2ActorsTest
+	url = https://github.com/jessebevil/MQ2ActorsTest.git
+	branch = main
+[submodule "plugins/MQ2BardSwap"]
+	path = plugins/MQ2BardSwap
+	url = https://github.com/RedGuides/MQ2BardSwap.git
+	branch = master
+[submodule "plugins/MQ2Collectible"]
+	path = plugins/MQ2Collectible
+	url = https://github.com/RedGuides/mq2collectible.git
+	branch = main
+[submodule "plugins/MQ2DotNet"]
+	path = plugins/MQ2DotNet
+	url = https://github.com/projecteon/MQ2DotNet.git
+	branch = master
+[submodule "plugins/MQ2HeadShot"]
+	path = plugins/MQ2HeadShot
+	url = https://github.com/RedGuides/MQ2Headshot.git
+	branch = master
+[submodule "plugins/MQ2Ice"]
+	path = plugins/MQ2Ice
+	url = https://github.com/RedGuides/MQ2Ice.git
+	branch = master
+[submodule "plugins/MQ2KissTemplate"]
+	path = plugins/MQ2KissTemplate
+	url = https://github.com/RedGuides/MQ2KissTemplate.git
+[submodule "plugins/MQ2MeshManager"]
+	path = plugins/MQ2MeshManager
+	url = https://github.com/wired420/MQ2MeshManager.git
+	branch = main
+[submodule "plugins/MQ2SQLite"]
+	path = plugins/MQ2SQLite
+	url = https://gitlab.com/Knightly1/mq2sqlite.git
+	branch = master
+[submodule "plugins/MQ2ShellCmd"]
+	path = plugins/MQ2ShellCmd
+	url = https://gitlab.com/Knightly1/MQ2ShellCmd.git
+	branch = master
+[submodule "plugins/MQ2Targets"]
+	path = plugins/MQ2Targets
+	url = https://github.com/MMOBugs/MQ2Targets.git
+	branch = master
+[submodule "plugins/MQ2Tracking"]
+	path = plugins/MQ2Tracking
+	url = https://github.com/RedGuides/MQ2Tracking.git
+	branch = master
+[submodule "plugins/MQ2Vendors"]
+	path = plugins/MQ2Vendors
+	url = https://github.com/RedGuides/MQ2Vendors.git
+	branch = master
+[submodule "plugins/MQ2WinTitle"]
+	path = plugins/MQ2WinTitle
+	url = https://github.com/MMOBugs/MQ2WinTitle.git
+	branch = master
+[submodule "plugins/MQMountClassicModels"]
+	path = plugins/MQMountClassicModels
+	url = https://github.com/Knightly1/MQMountClassicModels
+	branch = main
+[submodule "plugins/MQTextToSpeech"]
+	path = plugins/MQTextToSpeech
+	url = https://github.com/Knightly1/MQTextToSpeech.git
+	branch = main
 [submodule "plugins/MQ2EQBC"]
 	path = plugins/MQ2EQBC
 	url = https://github.com/RedGuides/mq2eqbc.git
