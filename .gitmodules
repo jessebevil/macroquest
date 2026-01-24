@@ -10,10 +10,6 @@
 	path = plugins/MQ2MoveUtils
 	url = https://github.com/RedGuides/mq2moveutils.git
 	branch = master
-[submodule "plugins/MQ2ActorsTest"]
-	path = plugins/MQ2ActorsTest
-	url = https://github.com/jessebevil/MQ2ActorsTest.git
-	branch = main
 [submodule "plugins/MQ2BardSwap"]
 	path = plugins/MQ2BardSwap
 	url = https://github.com/RedGuides/MQ2BardSwap.git
