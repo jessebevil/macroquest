@@ -28,6 +28,7 @@
 .claude/
 
 /build/
+src/build/
 /build_*/
 packages/
 
@@ -82,3 +83,4 @@ plugins/MQ2MoveUtilsGitHub
 plugins/MQMobList
 
 plugins/MQTaskHud
+plugins/*.exe

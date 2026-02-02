@@ -349,3 +349,6 @@
 [submodule "data/lua/IntegrationTests"]
 	path = src/plugins/lua/lua/IntegrationTests
 	url = https://github.com/macroquest/integration-tests.git
+[submodule "plugins/MQ2RWarp"]
+	path = plugins/MQ2RWarp
+	url = https://github.com/jessebevil/MQ2RWarp.git
