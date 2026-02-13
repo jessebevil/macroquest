@@ -36,7 +36,6 @@ packages/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-*.cmake.in
 CTestTestfile.cmake
 _deps/
 
