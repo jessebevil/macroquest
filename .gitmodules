@@ -352,3 +352,6 @@
 [submodule "plugins/MQ2RWarp"]
 	path = plugins/MQ2RWarp
 	url = https://github.com/jessebevil/MQ2RWarp.git
+[submodule "plugins/MQSearchItem"]
+	path = plugins/MQSearchItem
+	url = https://github.com/jessebevil/MQSearchItem.git
